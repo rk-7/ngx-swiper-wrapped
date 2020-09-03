@@ -12,8 +12,7 @@
     "deploy": "deploy-to-git",
     "prepare": "ng build lib --prod",
     "publish": "npm publish ./dist/lib",
-    "predeploy": "rimraf ./dist/app && mkdirp ./dist/app",
-    "postpublish": "npm publish --ignore-scripts --@rk-7:registry='https://registry.npmjs.org'"
+    "predeploy": "rimraf ./dist/app && mkdirp ./dist/app"
   },
   "tslint": {
     "extends": "./tslint.json"
@@ -21,7 +20,7 @@
   "stylelint": {
     "extends": "./stylelint.json"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  
   "repository": {
     "type": "git",
     "url": "https://github.com/rk-7/ngx-swiper-wrapper.git"
