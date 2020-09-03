@@ -4,7 +4,6 @@
   "bugs": "https://github.com/rk-7/ngx-swiper-wrapper/issues",
   "version": "9.1.0",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "ng": "ng",
     "lint": "ng lint",
@@ -13,7 +12,8 @@
     "deploy": "deploy-to-git",
     "prepare": "ng build lib --prod",
     "publish": "npm publish ./dist/lib",
-    "predeploy": "rimraf ./dist/app && mkdirp ./dist/app"
+    "predeploy": "rimraf ./dist/app && mkdirp ./dist/app",
+    "postpublish": "npm publish --ignore-scripts --@rk-7:registry='https://registry.npmjs.org'"
   },
   "tslint": {
     "extends": "./tslint.json"
