@@ -1,7 +1,7 @@
 {
-  "name": "ngx-swiper-wrapper",
+  "name": "ngx-swiper-wrapped",
   "description": "Angular wrapper library for Swiper",
-  "bugs": "https://github.com/zefoy/ngx-swiper-wrapper/issues",
+  "bugs": "https://github.com/rk-7/ngx-swiper-wrapper/issues",
   "version": "9.1.0",
   "license": "MIT",
   "private": true,
@@ -21,22 +21,10 @@
   "stylelint": {
     "extends": "./stylelint.json"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zefoy/ngx-swiper-wrapper.git"
-  },
-  "config": {
-    "deployToGit": {
-      "repository": "git@github.com:zefoy/ngx-swiper-wrapper.git",
-      "branch": "gh-pages",
-      "folder": "dist/app",
-      "script": "ng build app --prod -- --base-href=ngx-swiper-wrapper --delete-output-path=false",
-      "commit": "Publishing $npm_package_version",
-      "user": {
-        "name": "ZEF Devel",
-        "email": "devel@zef.fi"
-      }
-    }
+    "url": "https://github.com/rk-7/ngx-swiper-wrapper.git"
   },
   "dependencies": {
     "@angular/cdk": "^9.0.0",
