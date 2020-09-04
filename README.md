@@ -1,4 +1,4 @@
-# Angular Swiper Wrapper
+# Angular Swiper Wrapper (ngx-swiper-wrapped)
 
 <a href="https://badge.fury.io/js/ngx-swiper-wrapper"><img src="https://badge.fury.io/js/ngx-swiper-wrapper.svg" align="right" alt="npm version" height="18"></a>
 
@@ -43,9 +43,9 @@ npm install ngx-swiper-wrapper --save
 Providing the global configuration is optional and when used you should only provide the configuration in your root module.
 
 ```javascript
-import { SwiperModule } from 'ngx-swiper-wrapper';
-import { SWIPER_CONFIG } from 'ngx-swiper-wrapper';
-import { SwiperConfigInterface } from 'ngx-swiper-wrapper';
+import { SwiperModule } from 'ngx-swiper-wrapped';
+import { SWIPER_CONFIG } from 'ngx-swiper-wrapped';
+import { SwiperConfigInterface } from 'ngx-swiper-wrapped';
 
 const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',

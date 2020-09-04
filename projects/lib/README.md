@@ -6,6 +6,10 @@ This is an Angular wrapper library for the [Swiper](http://idangero.us/swiper/).
 
 This documentation is for the latest 6.x.x version which requires Angular 5 or newer. For Angular 4 you need to use the latest 4.x.x version. Documentation for the 4.x.x can be found from <a href="https://github.com/zefoy/ngx-swiper-wrapper/tree/4.x.x/">here</a>.
 
+### Thanks
+
+This library is a fork from https://github.com/zefoy/ngx-swiper-wrapper.git. Thanks to Zefoy and the contributors! :)
+
 ### Quick links
 
 [Example application](https://zefoy.github.io/ngx-swiper-wrapper/)
@@ -39,9 +43,9 @@ npm install ngx-swiper-wrapper --save
 Providing the global configuration is optional and when used you should only provide the configuration in your root module.
 
 ```javascript
-import { SwiperModule } from 'ngx-swiper-wrapper';
-import { SWIPER_CONFIG } from 'ngx-swiper-wrapper';
-import { SwiperConfigInterface } from 'ngx-swiper-wrapper';
+import { SwiperModule } from 'ngx-swiper-wrapped';
+import { SWIPER_CONFIG } from 'ngx-swiper-wrapped';
+import { SwiperConfigInterface } from 'ngx-swiper-wrapped';
 
 const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',

@@ -5,7 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { SwiperModule, SwiperConfigInterface,
-  SWIPER_CONFIG } from 'ngx-swiper-wrapper';
+  SWIPER_CONFIG } from 'ngx-swiper-wrapped';
 
 import { AppComponent } from './app.component';
 

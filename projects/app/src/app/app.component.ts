@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 
-import { SwiperComponent, SwiperDirective } from 'ngx-swiper-wrapper';
+import { SwiperComponent, SwiperDirective } from 'ngx-swiper-wrapped';
 import { SwiperOptions } from 'swiper';
 import { PaginationOptions } from 'swiper/types/components/pagination';
 import { ScrollbarOptions } from 'swiper/types/components/scrollbar';
